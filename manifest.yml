@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: oktayiot
+  host: oktayiot
+  disk_quota: 1024M
+  services:
+  - oktayiot-cloudantNoSQLDB
+  - oktayiot-iotf-service
